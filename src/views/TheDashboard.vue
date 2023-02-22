@@ -1,17 +1,11 @@
 <script setup>
-import BaseCard from '../components/BaseCard.vue'
 
-export default {
-    data() {
-        return {
-            
-        }
-    }
-}
+
+
 </script>
 
 <template>
-    <main>
-        <BaseCard />
-    </main>
+    <v-container>
+        <v-card>bing bong ding dong</v-card>
+    </v-container>
 </template>
