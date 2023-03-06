@@ -13,8 +13,14 @@
         <v-card title="Emergency Info">
           <v-card-text>
             <p>Allergies: {{ currentUser.allergies }}</p>
-            <p>Emergency Contact: {{ currentUser.emergencyContact }}</p>
             <p>Medications: {{ currentUser.medicationList }}</p>
+            <v-card-text>
+            <p>Emergency Contact: </p>
+            <p>{{ currentUser.emergencyContact.firstName }} {{ currentUser.emergencyContact.lastName }}</p>
+            <p>{{ currentUser.emergencyContact.phone }}</p>
+            <p>{{ currentUser.emergencyContact.email }}</p>
+            <p>{{ currentUser.emergencyContact.address }}</p>
+            </v-card-text>
           </v-card-text>
         </v-card>
       </v-col>
